@@ -3,108 +3,129 @@
   <head>
     <meta charset="UTF-8">
     <title>Escape.</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <span>Escape.</span>
-      <nav>
-        <a href="#">HOME</a>
-        <a href="#">CATEGORIES</a>
-        <a href="#">ABOUT</a>
-        <a href="#">CONTACT</a>
+    <header class="header">
+      <span class="logo">Escape.</span>
+      <nav class="header__nav">
+        <a class="nav__link" href="#">HOME</a>
+        <a class="nav__link" href="#">CATEGORIES</a>
+        <a class="nav__link" href="#">ABOUT</a>
+        <a class="nav__link" href="#">CONTACT</a>
       </nav>
-      <h1>Let's do it together.</h1>
-      <p>We travel the world in search of stories. Come along for the ride.</p>
-      <button>View Latest Posts</button>
+      <h1 class="header__heading">Let's do it together.</h1>
+      <p class="header__text">We travel the world in search of stories. Come along for the ride.</p>
+      <button class="button header__button">View Latest Posts</button>
     </header>
-    <nav>
-      <a href="#">Nature</a>
-      <a href="#">Photography</a>
-      <a href="#">Relaxation</a>
-      <a href="#">Vacation</a>
-      <a href="#">Travel</a>
-      <a href="#">Adventure</a>
+    <nav class="menu">
+      <a class="menu__link" href="#">Nature</a>
+      <a class="menu__link" href="#">Photography</a>
+      <a class="menu__link" href="#">Relaxation</a>
+      <a class="menu__link" href="#">Vacation</a>
+      <a class="menu__link" href="#">Travel</a>
+      <a class="menu__link" href="#">Adventure</a>
     </nav>
-    <h2>Featured Posts</h2>
-    <div>
-      <article>
-        <a href="the-road-ahead.html">
-          <h2>The road ahead</h2>
-          <p>The road ahead might be paved - it might not be.</p>
-        </a>
-        <img src="images/mat_vogels.jpg" alt="Mat Vogels">
-        <span>Mat Vogels</span>
-        <span>September 25, 2015</span>
-      </article>
-      <article>
-        <button>ADVENTURE</button>
-        <h2>From Top Down</h2>
-        <p>Once a year, go someplace you’ve never been before.</p>
-        <img src="images/william_wong.jpg" alt="William Wong">
-        <span>William Wong</span>
-        <span>September 25, 2015</span>
-      </article>
+    <div class="main">
+      <div class="featured">
+        <h2 class="name">Featured Posts</h2>
+        <div class="rectangle"></div>
+        <article class="featured__road-ahead">
+          <a class="road-ahead_text-decoration" href="the-road-ahead.html"><h2 class="featured__heading">The road ahead</h2></a>
+          <a class="road-ahead_text-decoration" href="the-road-ahead.html"><p class="featured__text">The road ahead might be paved - it might not be.</p></a>
+          <img class="featured__img" src="images/mat_vogels.jpg" alt="Mat Vogels">
+          <span class="featured__span">Mat Vogels</span>
+          <span class="featured__span">September 25, 2015</span>
+        </article>
+        <article class="featured__from-top-down">
+          <button class="button button__adventure">ADVENTURE</button>
+          <h2 class="featured__heading">From Top Down</h2>
+          <p class="featured__text">Once a year, go someplace you’ve never been before.</p>
+          <img class="featured__img" src="images/william_wong.jpg" alt="William Wong">
+          <span class="featured__span">William Wong</span>
+          <span class="featured__span">September 25, 2015</span>
+        </article>
+      </div>
+      <div class="most-recent">
+        <h2 class="name">Most Recent</h2>
+        <div class="rectangle"></div>
+        <article class="most-recent__item">
+          <img class="most-recent__img" src="images/still_standing_tall.jpg" alt="Still Standing Tall">
+          <h3 class="most-recent__heading">Still Stanging Tall</h3>
+          <p class="most-recent__text">Life begins at the end of your comfort zone.</p>
+          <div class="most-recent__rectangle"></div>
+          <div class="item__footer">
+            <img class="most-recent__author" src="images/william_wong.jpg" alt="William Wong">
+            <span class="most-recent__span">William Wong</span>
+            <span class="most-recent__span">9/25/2015</span>
+          </div>
+        </article>
+        <article class="most-recent__item">
+          <img class="most-recent__img" src="images/sunny_side_up.jpg" alt="Sunny Side Up">
+          <h3 class="most-recent__heading">Sunny Side Up</h3>
+          <p class="most-recent__text">No place is ever as bad as they tell you it’s going to be.</p>
+          <div class="most-recent__rectangle"></div>
+          <div class="item__footer">
+            <img class="most-recent__author" src="images/mat_vogels.jpg" alt="Mat Vogels">
+            <span  class="most-recent__span">Mat Vogels</span>
+            <span  class="most-recent__span">9/25/2015</span>
+          </div>
+        </article>
+        <article class="most-recent__item">
+          <img class="most-recent__img" src="images/water_falls.jpg" alt="Water Falls">
+          <h3 class="most-recent__heading">Water Falls</h3>
+          <p class="most-recent__text">We travel not to escape life, but for life not to escape us.</p>
+          <div class="most-recent__rectangle"></div>
+          <div class="item__footer">
+            <img class="most-recent__author" src="images/mat_vogels.jpg" alt="Mat Vogels">
+            <span class="most-recent__span">Mat Vogels</span>
+            <span class="most-recent__span">9/25/2015</span>
+          </div>
+        </article>
+        <article class="most-recent__item">
+          <img class="most-recent__img" src="images/through_the_mist.jpg" alt="Through The Mist">
+          <h3 class="most-recent__heading">Through The Mist</h3>
+          <p class="most-recent__text">Travel makes you see what a tiny place you occupy in the world.</p>
+          <div class="most-recent__rectangle"></div>
+          <div class="item__footer">
+            <img class="most-recent__author" src="images/william_wong.jpg" alt="William Wong">
+            <span  class="most-recent__span">William Wong</span>
+            <span  class="most-recent__span">9/25/2015</span>
+          </div>
+        </article>
+        <article class="most-recent__item">
+          <img class="most-recent__img" src="images/awaken_early.jpg" alt="Awaken Early">
+          <h3 class="most-recent__heading">Awaken Early</h3>
+          <p class="most-recent__text">Not all those who wander are lost.</p>
+          <div class="most-recent__rectangle"></div>
+          <div class="item__footer">
+            <img class="most-recent__author" src="images/mat_vogels.jpg" alt="Mat Vogels">
+            <span  class="most-recent__span">Mat Vogels</span>
+            <span  class="most-recent__span">9/25/2015</span>
+          </div>
+        </article>
+        <article class="most-recent__item">
+          <img class="most-recent__img" src="images/try_it_always.jpg" alt="Try It Always">
+          <h3 class="most-recent__heading">Try It Always</h3>
+          <p class="most-recent__text">The world is a book, and those who do not travel read only one page.</p>
+          <div class="most-recent__rectangle"></div>
+          <div class="item__footer">
+            <img class="most-recent__author" src="images/mat_vogels.jpg" alt="Mat Vogels">
+            <span  class="most-recent__span">Mat Vogels</span>
+            <span  class="most-recent__span">9/25/2015</span>
+          </div>
+        </article>
+      </div>
     </div>
-    <h2>Most Recent</h2>
-    <div>
-      <article>
-        <img src="images/still_standing_tall.jpg" alt="Still Standing Tall">
-        <h3>Still Stanging Tall</h3>
-        <p>Life begins at the end of your comfort zone.</p>
-        <img src="images/william_wong.jpg" alt="William Wong">
-        <span>William Wong</span>
-        <span>9/25/2015</span>
-      </article>
-      <article>
-        <img src="images/sunny_side_up.jpg" alt="Sunny Side Up">
-        <h3>Sunny Side Up</h3>
-        <p>No place is ever as bad as they tell you it’s going to be.</p>
-        <img src="images/mat_vogels.jpg" alt="Mat Vogels">
-        <span>Mat Vogels</span>
-        <span>9/25/2015</span>
-      </article>
-      <article>
-        <img src="images/water_falls.jpg" alt="Water Falls">
-        <h3>Water Falls</h3>
-        <p>We travel not to escape life, but for life not to escape us.</p>
-        <img src="images/mat_vogels.jpg" alt="Mat Vogels">
-        <span>Mat Vogels</span>
-        <span>9/25/2015</span>
-      </article>
-      <article>
-        <img src="images/through_the_mist.jpg" alt="Through The Mist">
-        <h3>Through The Mist</h3>
-        <p>Travel makes you see what a tiny place you occupy in the world.</p>
-        <img src="images/william_wong.jpg" alt="William Wong">
-        <span>William Wong</span>
-        <span>9/25/2015</span>
-      </article>
-      <article>
-        <img src="images/awaken_early.jpg" alt="Awaken Early">
-        <h3>Awaken Early</h3>
-        <p>Not all those who wander are lost.</p>
-        <img src="images/mat_vogels.jpg" alt="Mat Vogels">
-        <span>Mat Vogels</span>
-        <span>9/25/2015</span>
-      </article>
-      <article>
-        <img src="images/try_it_always.jpg" alt="Try It Always">
-        <h3>Try It Always</h3>
-        <p>
-          The world is a book, and those who do not travel read only one page.
-        </p>
-        <img src="images/mat_vogels.jpg" alt="Mat Vogels">
-        <span>Mat Vogels</span>
-        <span>9/25/2015</span>
-      </article>
-    </div>
-    <footer>
-      <span>Escape.</span>
-      <nav>
-        <a href="#">HOME</a>
-        <a href="#">CATEGORIES</a>
-        <a href="#">ABOUT</a>
-        <a href="#">CONTACT</a>
+    <footer class="footer">
+      <span class="logo">Escape.</span>
+      <nav class="footer__nav">
+        <a class="footer-nav__link" href="#">HOME</a>
+        <a class="footer-nav__link" href="#">CATEGORIES</a>
+        <a class="footer-nav__link" href="#">ABOUT</a>
+        <a class="footer-nav__link" href="#">CONTACT</a>
       </nav>
     </footer>
   </body>

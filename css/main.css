@@ -1,0 +1,227 @@
+.header
+{
+    background: url("../images/header.jpg");
+    background-size: cover;
+}
+
+.logo
+{
+    font: 26px/1 'Lora';
+    color: #FFF;
+}
+
+.logo_color
+{
+    color: #2E2E2E;
+}
+
+.nav__link
+{
+    display: inline;
+    font: 12px/1.67 'Oxygen';
+    letter-spacing: 0.6px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.nav__link_color
+{
+    color: #2E2E2E;
+}
+
+.header__heading
+{
+    font: 50px/1.02 'Lora';
+    letter-spacing: 2px;
+    color: #FFF;  
+}
+
+.header__heading_color
+{
+    color: #2E2E2E;
+}
+
+.header__text
+{
+    font: 17px/1.18 'Oxygen';
+    color: rgba(255, 255, 255, 0.63);
+}
+
+.header__text_color
+{
+    color: rgba(46, 46, 46, 0.63);
+}
+
+.button {
+    border-radius: 3px;
+    color: #FFF;
+    background: #DD783F;
+    border: none;
+}
+
+.header__button 
+{
+    height: 44px;
+    padding: 12px 31px;
+    font: 13px/1.54 'Oxygen';
+}
+
+.menu 
+{
+    background: #FFF;
+}
+
+.menu__link
+{
+    font: 14/1.43 'Lora';
+    color: #768088;
+    text-decoration: none;
+}
+
+.main
+{
+    background: #F7F7F7;
+}
+
+.name
+{
+    font: 20px/1.35 'Oxygen';
+    letter-spacing: 2px;
+    color: #2E2E2E;
+}
+
+.rectangle
+{
+    height: 1px;
+    background: #DEDEDE;
+    border-radius: 0px;
+    width: 188px;
+}
+
+.featured__road-ahead
+{
+    background: url("../images/the_road_ahead.jpg") no-repeat;
+    height: 280px;
+}
+
+.road-ahead_text-decoration
+{
+    text-decoration: none;
+}
+
+
+.featured__heading
+{
+    font: 27px/1.11 'Lora';
+    color: #FFF;
+    text-decoration: none;
+}
+
+.featured__text
+{
+    font: 14px/1.79 'Oxygen';
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.featured__img
+{
+    border-radius: 60px;
+}
+
+.featured__span
+{
+    font: 12px/2.92 'Oxygen';
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.featured__from-top-down
+{
+    background: url("../images/from_top_down.jpg") no-repeat;
+    height: 280px;
+}
+
+.button__adventure
+{
+    font: 12px/1.1 'Oxygen';
+    padding: 6px 9px 7px;
+}
+
+.most-recent__item
+{
+    background: #FFF;
+    width: 296px;
+}
+
+.most-recent__img
+{
+    background: #D6D6D6;
+}
+
+.most-recent__heading
+{
+    font: 16px/1.31 'Lora';
+    color: #101315;
+}
+
+.most-recent__text
+{
+    font: 13px/1.46 'Oxygen';
+    color: #7A7A7A;
+}
+
+.most-recent__rectangle
+{
+    height: 1px;
+    background: #EFEFEF;
+}
+
+.item__footer
+{
+    background: #FCFCFC;
+}
+
+.most-recent__author
+{
+    border-radius: 60px;
+}
+
+.most-recent__span
+{
+    font: 11px/3.18 'Oxygen';
+    color: #999999;
+}
+
+.footer
+{
+    background: rgba(35, 47, 56, 0.6);
+}
+
+.footer-nav__link
+{
+    font: 11px/2.36 'Oxygen';
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.content
+{
+    background: #F7F7F7;
+}
+
+.content__img
+{
+    border-radius: 3px;
+}
+
+.content__text
+{
+    font: 24px/1.46 'Oxygen';
+    color: #101315
+}
+
+
+
+
+
+
