@@ -98,46 +98,49 @@
     width: 188px;
 }
 
-.featured__road-ahead
+.featured__post
 {
-    background: url("../images/the_road_ahead.jpg") no-repeat;
     height: 280px;
 }
 
-.road-ahead_text-decoration
+.featured__post_background-road
+{
+    background: url("../images/the_road_ahead.jpg") no-repeat;
+}
+
+.post_text-decoration
 {
     text-decoration: none;
 }
 
 
-.featured__heading
+.post__heading
 {
     font: 27px/1.11 'Lora';
     color: #FFF;
     text-decoration: none;
 }
 
-.featured__text
+.post__text
 {
     font: 14px/1.79 'Oxygen';
     color: rgba(255, 255, 255, 0.7);
 }
 
-.featured__img
+.post__img
 {
     border-radius: 60px;
 }
 
-.featured__span
+.post__span
 {
     font: 12px/2.92 'Oxygen';
     color: rgba(255, 255, 255, 0.7);
 }
 
-.featured__from-top-down
+.featured__post_background-fromtop
 {
     background: url("../images/from_top_down.jpg") no-repeat;
-    height: 280px;
 }
 
 .button__adventure
@@ -146,46 +149,46 @@
     padding: 6px 9px 7px;
 }
 
-.most-recent__item
+.most-recent__photo
 {
     background: #FFF;
     width: 296px;
 }
 
-.most-recent__img
+.photo__img
 {
     background: #D6D6D6;
 }
 
-.most-recent__heading
+.photo__heading
 {
     font: 16px/1.31 'Lora';
     color: #101315;
 }
 
-.most-recent__text
+.photo__text
 {
     font: 13px/1.46 'Oxygen';
     color: #7A7A7A;
 }
 
-.most-recent__rectangle
+.photo__rectangle
 {
     height: 1px;
     background: #EFEFEF;
 }
 
-.item__footer
+.photo__footer
 {
     background: #FCFCFC;
 }
 
-.most-recent__author
+.photo__author
 {
     border-radius: 60px;
 }
 
-.most-recent__span
+.photo__span
 {
     font: 11px/3.18 'Oxygen';
     color: #999999;
@@ -204,17 +207,12 @@
     text-decoration: none;
 }
 
-.content
-{
-    background: #F7F7F7;
-}
-
-.content__img
+.main__img
 {
     border-radius: 3px;
 }
 
-.content__text
+.main__text
 {
     font: 24px/1.46 'Oxygen';
     color: #101315
