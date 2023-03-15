@@ -1,4 +1,4 @@
-.header-subheader
+.heading-subheading
 {
     background: url("../images/header.jpg");
     background-size: cover;
@@ -28,25 +28,25 @@
     color: #2E2E2E;
 }
 
-.header__heading
+.heading__heading
 {
     font: 50px/1.02 'Lora';
     letter-spacing: 2px;
     color: #FFF;  
 }
 
-.header__heading_color
+.heading__heading_color
 {
     color: #2E2E2E;
 }
 
-.header__text
+.heading__text
 {
     font: 17px/1.18 'Oxygen';
     color: rgba(255, 255, 255, 0.63);
 }
 
-.header__text_color
+.heading__text_color
 {
     color: rgba(46, 46, 46, 0.63);
 }
@@ -58,7 +58,7 @@
     border: none;
 }
 
-.header__button 
+.heading__button 
 {
     height: 44px;
     padding: 12px 31px;
@@ -89,12 +89,18 @@
     color: #2E2E2E;
 }
 
-.rectangle
+.line
 {
     height: 1px;
     background: #DEDEDE;
     border-radius: 0px;
     width: 188px;
+}
+
+.featured_flex
+{
+    display: flex;
+    justify-content: space-around;
 }
 
 .featured__post
@@ -171,7 +177,7 @@
     color: #7A7A7A;
 }
 
-.photo__rectangle
+.photo__line
 {
     height: 1px;
     background: #EFEFEF;
