@@ -28,25 +28,25 @@
     color: #2E2E2E;
 }
 
-.heading__heading
+.subheading__slogan
 {
     font: 50px/1.02 'Lora';
     letter-spacing: 2px;
     color: #FFF;  
 }
 
-.heading__heading_color
+.subheading__slogan_color
 {
     color: #2E2E2E;
 }
 
-.heading__text
+.subheading__text
 {
     font: 17px/1.18 'Oxygen';
     color: rgba(255, 255, 255, 0.63);
 }
 
-.heading__text_color
+.subheading__text_color
 {
     color: rgba(46, 46, 46, 0.63);
 }
@@ -58,7 +58,7 @@
     border: none;
 }
 
-.heading__button 
+.subheading__button 
 {
     height: 44px;
     padding: 12px 31px;
@@ -89,18 +89,14 @@
     color: #2E2E2E;
 }
 
-.line
-{
+.name::after
+{   
+    content: " ";
+    display: block;
     height: 1px;
-    background: #DEDEDE;
-    border-radius: 0px;
+    background-color: #DEDEDE;
     width: 188px;
-}
-
-.featured_flex
-{
-    display: flex;
-    justify-content: space-around;
+    margin-top: 16px
 }
 
 .featured__post
@@ -183,6 +179,16 @@
     background: #EFEFEF;
 }
 
+.photo__footer::before
+{
+    content: " ";
+    display: block;
+    height: 1px;
+    width: 296px;
+    background: #EFEFEF;
+    margin-bottom: 12px;
+}
+
 .photo__footer
 {
     background: #FCFCFC;
@@ -199,9 +205,23 @@
     color: #999999;
 }
 
-.footer
+.overfooter-footer
 {
-    background: rgba(35, 47, 56, 0.6);
+    background: url("../images/stay_in_touch.jpg");
+    background-size: cover;
+}
+
+.stay-in-touch-name
+{
+    font: 25px/1.2 'Oxygen';
+    color: #EFEFEF;
+}
+
+.data__email
+{
+    border-radius: 3px 0px 0px 3px;
+    border: none;
+    font: 12px/1.17 'Roboto';
 }
 
 .footer-nav__link
