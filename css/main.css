@@ -4,6 +4,12 @@
     background-size: cover;
 }
 
+.heading_flex
+{
+    display: flex;
+    justify-content: space-around;
+}
+
 .logo
 {
     font: 26px/1 'Lora';
@@ -15,12 +21,23 @@
     color: #2E2E2E;
 }
 
+.logo_margin
+{
+    margin-top: 20px;
+}
+
+.heading__nav_margin
+{
+    margin-top: 20px;
+}
+
 .nav__link
 {
     font: 12px/1.67 'Oxygen';
     letter-spacing: 0.6px;
     color: #FFF;
     text-decoration: none;
+    margin-right: 41px;
 }
 
 .nav__link_color
@@ -28,11 +45,26 @@
     color: #2E2E2E;
 }
 
+.subheading
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .subheading__slogan
 {
     font: 50px/1.02 'Lora';
     letter-spacing: 2px;
     color: #FFF;  
+
+}
+
+.subheading__slogan_margin
+{
+    margin-bottom: 3px;
+    margin-top: 130px;
 }
 
 .subheading__slogan_color
@@ -51,6 +83,11 @@
     color: rgba(46, 46, 46, 0.63);
 }
 
+.subheading__text_margin
+{
+    margin-bottom: 31px;
+}
+
 .button {
     border-radius: 3px;
     color: #FFF;
@@ -65,9 +102,29 @@
     font: 13px/1.54 'Oxygen';
 }
 
+.subheading__button_margin
+{
+    margin-bottom: 157px;
+}
+
 .menu 
 {
     background: #FFF;
+}
+
+.menu_padding
+{
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.menu_flex
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-evenly;
 }
 
 .menu__link
@@ -75,6 +132,11 @@
     font: 14/1.43 'Lora';
     color: #768088;
     text-decoration: none;
+}
+
+.menu__link_padding
+{
+    padding: 22px 0px;
 }
 
 .main
@@ -87,6 +149,10 @@
     font: 20px/1.35 'Oxygen';
     letter-spacing: 2px;
     color: #2E2E2E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .name::after
@@ -96,17 +162,42 @@
     height: 1px;
     background-color: #DEDEDE;
     width: 188px;
-    margin-top: 16px
+    margin-top: 16px;
+    margin: 16px auto 22px;
+}
+
+.featured 
+{
+    padding-top: 70px;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+}
+
+.featured_flex
+{
+    display: flex;
+    justify-content: center;
 }
 
 .featured__post
 {
+    width: 460px;
     height: 280px;
 }
 
 .featured__post_background-road
 {
     background: url("../images/the_road_ahead.jpg") no-repeat;
+}
+
+.featured__post_margin
+{
+    margin-right: 20px;
+}
+
+.featured__post_flex
+{
+    di
 }
 
 .post_text-decoration
@@ -150,9 +241,23 @@
     padding: 6px 9px 7px;
 }
 
+.most-recent
+{
+    margin-top: 50px;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+}
+
+.most-recent_flex
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .most-recent__photo
 {
-    background: #FFF;
+    background: #FCFCFC;
     width: 296px;
 }
 
