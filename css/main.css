@@ -45,7 +45,7 @@
     color: #2E2E2E;
 }
 
-.subheading
+.subheading_flex
 {
     display: flex;
     align-items: center;
@@ -166,8 +166,6 @@
     margin: 16px auto 22px;
 }
 
-
-
 .featured_padding
 {
     padding-top: 70px;
@@ -243,7 +241,7 @@
     padding: 6px 9px 7px;
 }
 
-.most-recent
+.most-recent_padding
 {
     margin-top: 50px;
     padding-left: 19%;
@@ -278,12 +276,6 @@
 {
     font: 13px/1.46 'Oxygen';
     color: #7A7A7A;
-}
-
-.photo__line
-{
-    height: 1px;
-    background: #EFEFEF;
 }
 
 .photo__footer::before
