@@ -10,7 +10,7 @@
   </head>
   <body>
     <div class="heading-subheading">
-      <header class="heading_padding heading_flex">
+      <header class="heading_flex">
         <span class="logo logo_margin">Escape.</span>
         <nav class="heading__nav heading__nav_margin">
           <a class="nav__link" href="#">HOME</a>
@@ -19,7 +19,7 @@
           <a class="nav__link" href="#">CONTACT</a>
         </nav>
       </header>
-      <div class="subheading">
+      <div class="subheading_flex">
         <h1 class="subheading__slogan subheading__slogan_margin">Let's do it together.</h1>
         <p class="subheading__text subheading__text_margin">We travel the world in search of stories. Come along for the ride.</p>
         <button class="button subheading__button subheading__button_margin">View Latest Posts</button>
@@ -34,107 +34,133 @@
       <a class="menu__link menu__link_padding" href="#">Adventure</a>
     </div>
     <div class="main">
-      <div class="featured">
-        <h2 class="name">Featured Posts</h2>
+      <div class="featured_padding">
+        <h2 class="name name_flex">Featured Posts</h2>
         <div class="featured_flex">
-          <article class="featured__post featured__post_background-road featured__post_margin featured__post_flex">
-            <h2 class="post__heading"><a class="post_text-decoration" href="the-road-ahead.html"></a>The road ahead</h2>
-            <a class="post_text-decoration" href="the-road-ahead.html"><p class="post__text">The road ahead might be paved - it might not be.</p></a>
-            <img class="post__img" src="images/mat_vogels.jpg" alt="Mat Vogels">
-            <span class="post__span">Mat Vogels</span>
-            <span class="post__span">September 25, 2015</span>
+          <article class="featured__post featured__post_margin featured__post_background-road featured__post_flex">
+            <h2 class="post__heading post__heading_margin"><a class="post_text-decoration" href="the-road-ahead.html"></a>The road ahead</h2>
+            <a class="post_text-decoration" href="the-road-ahead.html"><p class="post__text post__text_margin">The road ahead might be paved - it might not be.</p></a>
+            <div class="post__data post__data_margin post__data_flex">
+              <div class="data__author data__author_margin">
+                <img class="author__img author__img_margin" src="images/mat_vogels.jpg" alt="Mat Vogels">
+                <span class="author__name author__name_position">Mat Vogels</span>
+              </div>
+              <span class="data__date data__date_margin">September 25, 2015</span>
+            </div>
           </article>
-          <article class="featured__post featured__post_background-fromtop">
-            <button class="button button__adventure">ADVENTURE</button>
-            <h2 class="post__heading">From Top Down</h2>
-            <p class="post__text">Once a year, go someplace you’ve never been before.</p>
-            <img class="post__img" src="images/william_wong.jpg" alt="William Wong">
-            <span class="post__span">William Wong</span>
-            <span class="post__span">September 25, 2015</span>
+          <article class="featured__post featured__post_margin featured__post_background-fromtop featured__post_flex">
+            <button class="button button__adventure button__adventure_flex">ADVENTURE</button>
+            <h2 class="post__heading post__heading_margin">From Top Down</h2>
+            <p class="post__text post__text_margin">Once a year, go someplace you’ve never been before.</p>
+            <div class="post__data post__data_margin post__data_flex">
+              <div class="data__author data__author_margin">
+                <img class="author__img author__img_margin" src="images/william_wong.jpg" alt="William Wong">
+                <span class="author__name author__name_position">William Wong</span>
+              </div>
+              <span class="data__date data__date_margin">September 25, 2015</span>
+            </div>
           </article>
         </div>
       </div>
       <div class="most-recent most-recent_padding">
-        <h2 class="name most-recent__name_margin">Most Recent</h2>
+        <h2 class="name name_flex most-recent__name_margin">Most Recent</h2>
         <div class="most-recent_flex"> 
-          <article class="most-recent__photo">
+          <article class="most-recent__photo most-recent__photo_margin most-recent__photo_flex">
             <img class="photo__img" src="images/still_standing_tall.jpg" alt="Still Standing Tall">
-            <h3 class="photo__heading">Still Stanging Tall</h3>
-            <p class="photo__text">Life begins at the end of your comfort zone.</p>
-            <div class="photo__footer">
-              <img class="photo__author" src="images/william_wong.jpg" alt="William Wong">
-              <span class="photo__span">William Wong</span>
-              <span class="photo__span">9/25/2015</span>
+            <h3 class="photo__heading photo__heading_margin">Still Stanging Tall</h3>
+            <p class="photo__text photo__text_margin">Life begins at the end of your comfort zone.</p>
+            <hr class="photo__line">
+            <div class="photo__data photo__data_margin photo__data_flex">
+              <div class="photo__author">
+                <img class="author__img photoauthor__img_margin" src="images/william_wong.jpg" alt="William Wong">
+                <span class="author__text author__text_position">William Wong</span>
+              </div> 
+              <span class="author__text date__text_margin">9/25/2015</span>
             </div>
           </article>
-          <article class="most-recent__photo most-recent__photo_margin">
-            <img class="photo__img" src="images/sunny_side_up.jpg" alt="Sunny Side Up">
-            <h3 class="photo__heading">Sunny Side Up</h3>
-            <p class="photo__text">No place is ever as bad as they tell you it’s going to be.</p>
-            <div class="photo__footer">
-              <img class="photo__author" src="images/mat_vogels.jpg" alt="Mat Vogels">
-              <span class="photo__span">Mat Vogels</span>
-              <span class="photo__span">9/25/2015</span>
+          <article class="most-recent__photo most-recent__photo_margin most-recent__photo_flex">
+            <img class="photo__img" src="images/sunny_side_up.jpg" alt="Still Standing Tall">
+            <h3 class="photo__heading photo__heading_margin">Sunny Side Up</h3>
+            <p class="photo__text photo__text_margin">No place is ever as bad as they tell you it’s going to be.</p>
+            <hr class="photo__line">
+            <div class="photo__data photo__data_margin photo__data_flex">
+              <div class="photo__author">
+                <img class="author__img photoauthor__img_margin" src="images/mat_vogels.jpg" alt="William Wong">
+                <span class="author__text author__text_position">Mat Vogels</span>
+              </div> 
+              <span class="author__text date__text_margin">9/25/2015</span>
             </div>
           </article>
-          <article class="most-recent__photo most-recent__photo_margin">
-            <img class="photo__img" src="images/water_falls.jpg" alt="Water Falls">
-            <h3 class="photo__heading">Water Falls</h3>
-            <p class="photo__text">We travel not to escape life, but for life not to escape us.</p>
-            <div class="photo__footer">
-              <img class="photo__author" src="images/mat_vogels.jpg" alt="Mat Vogels">
-              <span class="photo__span">Mat Vogels</span>
-              <span class="photo__span">9/25/2015</span>
+          <article class="most-recent__photo most-recent__photo_margin most-recent__photo_flex">
+            <img class="photo__img" src="images/water_falls.jpg" alt="Still Standing Tall">
+            <h3 class="photo__heading photo__heading_margin">Water Falls</h3>
+            <p class="photo__text photo__text_margin">We travel not to escape life, but for life not to escape us.</p>
+            <hr class="photo__line">
+            <div class="photo__data photo__data_margin photo__data_flex">
+              <div class="photo__author">
+                <img class="author__img photoauthor__img_margin" src="images/mat_vogels.jpg" alt="William Wong">
+                <span class="author__text author__text_position">Mat Vogels</span>
+              </div> 
+              <span class="author__text date__text_margin">9/25/2015</span>
             </div>
           </article>
-          <article class="most-recent__photo most-recent__photo_margin">
-            <img class="photo__img" src="images/through_the_mist.jpg" alt="Through The Mist">
-            <h3 class="photo__heading">Through The Mist</h3>
-            <p class="photo__text">Travel makes you see what a tiny place you occupy in the world.</p>
-            <div class="photo__footer">
-              <img class="photo__author" src="images/william_wong.jpg" alt="William Wong">
-              <span class="photo__span">William Wong</span>
-              <span class="photo__span">9/25/2015</span>
+          <article class="most-recent__photo most-recent__photo_margin most-recent__photo_flex">
+            <img class="photo__img" src="images/through_the_mist.jpg" alt="Still Standing Tall">
+            <h3 class="photo__heading photo__heading_margin">Through the Mist</h3>
+            <p class="photo__text photo__text_margin">Travel makes you see what a tiny place you occupy in the world.</p>
+            <hr class="photo__line">
+            <div class="photo__data photo__data_margin photo__data_flex">
+              <div class="photo__author">
+                <img class="author__img photoauthor__img_margin" src="images/william_wong.jpg" alt="William Wong">
+                <span class="author__text author__text_position">William Wong</span>
+              </div> 
+              <span class="author__text date__text_margin">9/25/2015</span>
             </div>
           </article>
-          <article class="most-recent__photo most-recent__photo_margin">
-            <img class="photo__img" src="images/awaken_early.jpg" alt="Awaken Early">
-            <h3 class="photo__heading">Awaken Early</h3>
-            <p class="photo__text">Not all those who wander are lost.</p>
-            <div class="photo__footer">
-              <img class="photo__author" src="images/mat_vogels.jpg" alt="Mat Vogels">
-              <span class="photo__span">Mat Vogels</span>
-              <span class="photo__span">9/25/2015</span>
+          <article class="most-recent__photo most-recent__photo_margin most-recent__photo_flex">
+            <img class="photo__img" src="images/awaken_early.jpg" alt="Still Standing Tall">
+            <h3 class="photo__heading photo__heading_margin">Awaken Early</h3>
+            <p class="photo__text photo__text_margin">Not all those who wander are lost.</p>
+            <hr class="photo__line">
+            <div class="photo__data photo__data_margin photo__data_flex">
+              <div class="photo__author">
+                <img class="author__img photoauthor__img_margin" src="images/mat_vogels.jpg" alt="William Wong">
+                <span class="author__text author__text_position">Mat Vogels</span>
+              </div> 
+              <span class="author__text date__text_margin">9/25/2015</span>
             </div>
           </article>
-          <article class="most-recent__photo most-recent__photo_margin">
-            <img class="photo__img" src="images/try_it_always.jpg" alt="Try It Always">
-            <h3 class="photo__heading">Try It Always</h3>
-            <p class="photo__text">The world is a book, and those who do not travel read only one page.</p>
-            <div class="photo__footer">
-              <img class="photo__author" src="images/mat_vogels.jpg" alt="Mat Vogels">
-              <span class="photo__span">Mat Vogels</span>
-              <span class="photo__span">9/25/2015</span>
+          <article class="most-recent__photo most-recent__photo_margin most-recent__photo_flex">
+            <img class="photo__img" src="images/try_it_always.jpg" alt="Still Standing Tall">
+            <h3 class="photo__heading photo__heading_margin">Try it Always</h3>
+            <p class="photo__text photo__text_margin">The world is a book, and those who do not travel read only one page.</p>
+            <hr class="photo__line">
+            <div class="photo__data photo__data_margin photo__data_flex">
+              <div class="photo__author">
+                <img class="author__img photoauthor__img_margin" src="images/mat_vogels.jpg" alt="William Wong">
+                <span class="author__text author__text_position">Mat Vogels</span>
+              </div> 
+              <span class="author__text date__text_margin">9/25/2015</span>
             </div>
           </article>
         </div>
       </div>
     </div>
-    <div class="overfooter-footer overfooter-footer_padding">
-      <div class="overfooter-footer__overfoooter overfooter_flex">
-        <h2 class="overfooter__stay-in-touch-name">Stay in Touch</h2>
-        <form class="overfooter__data">
+    <div class="intouch-footer intouch-footer_padding">
+      <div class="intouch-footer__intouch intouch-footer__intouch_padding">
+        <h2 class="intouch__name intouch__name_flex">Stay in Touch</h2>
+        <form class="intouch__data intouch__data_flex">
           <input class="data__email data__email_padding" type="text" name="email" placeholder="Enter your email address">
-          <input class="data__submit data__submit_padding data__submit_margin" type="submit">
+          <input class="data__submit data__submit_padding" type="submit">
         </form>
       </div>
-      <footer class="basement">
+      <footer class="basement basement_flex basement_padding">
         <span class="logo">Escape.</span>
         <nav class="basement__nav">
-          <a class="basement-nav__link" href="#">HOME</a>
-          <a class="basement-nav__link" href="#">CATEGORIES</a>
-          <a class="basement-nav__link" href="#">ABOUT</a>
-          <a class="basement-nav__link" href="#">CONTACT</a>
+          <a class="basement-nav__link basement-nav__link_margin" href="#">HOME</a>
+          <a class="basement-nav__link basement-nav__link_margin" href="#">CATEGORIES</a>
+          <a class="basement-nav__link basement-nav__link_margin" href="#">ABOUT</a>
+          <a class="basement-nav__link basement-nav__link_margin" href="#">CONTACT</a>
         </nav>
       </footer>
     </div>
