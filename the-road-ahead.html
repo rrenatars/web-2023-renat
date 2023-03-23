@@ -6,25 +6,26 @@
     <link href="css/main.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <span class="logo logo_color">Escape.</span>
-      <nav>
+    <header class="heading_flex">
+      <span class="logo logo_margin logo_color">Escape.</span>
+      <nav class="heading__nav heading__nav_margin">
         <a class="nav__link nav__link_color" href="#">HOME</a>
         <a class="nav__link nav__link_color" href="#">CATEGORIES</a>
         <a class="nav__link nav__link_color" href="#">ABOUT</a>
         <a class="nav__link nav__link_color" href="#">CONTACT</a>
       </nav>
-      <div>
-        <h1 class="subheading__slogan subheading__slogan_color">The Road Ahead</h1>
-        <p class="subheading__text subheading__text_color">The road ahead might be paved - it might not be.</p>
-      </div>
     </header>
+    <section class="subheading_flex">
+      <h1 class="subheading__slogan subheading__slogan_margin subheading__slogan_color">The Road Ahead</h1>
+      <p class="subheading__text roadsubheading__text_margin subheading__text_color">The road ahead might be paved - it might not be.</p>
+    </section>
     <section class="main">
-      <img class="main__img" src="images/road-ahead-big.jpg" alt="The Road Ahead">
-      <div>
-        <p class="main__text">
+      <img class="main__img main__img_margin" src="images/road-ahead-big.jpg" alt="The Road Ahead">
+      <div class="paragraphs__padding">
+        <p class="paragraphs__text">
           Dark spruce forest frowned on either side the frozen waterway. The trees
           had been stripped by a recent wind of their white covering of frost, and
           they seemed to lean towards each other, black and ominous, in the fading
@@ -39,7 +40,7 @@
           Northland Wild.
         </p>
 
-        <p class="main__text">
+        <p class="paragraphs__text">
           But there was life, abroad in the land and defiant. Down the frozen
           waterway toiled a string of wolfish dogs. Their bristly fur was rimed
           with frost. Their breath froze in the air as it left their mouths,
@@ -55,7 +56,7 @@
           occupying most of the space, was the long and narrow oblong box.
         </p>
 
-        <p class="main__text">
+        <p class="paragraphs__text">
           In advance of the dogs, on wide snowshoes, toiled a man. At the rear of
           the sled toiled a second man. On the sled, in the box, lay a third man
           whose toil was over,—a man whom the Wild had conquered and beaten down
@@ -69,7 +70,7 @@
           all movement must in the end come to the cessation of movement.
         </p>
 
-        <p class="main__text">
+        <p class="paragraphs__text">
           But at front and rear, unawed and indomitable, toiled the two men who
           were not yet dead. Their bodies were covered with fur and soft-tanned
           leather. Eyelashes and cheeks and lips were so coated with the crystals
@@ -83,21 +84,21 @@
         </p>
       </div>
     </section>
-    <div class="overfooter-footer overfooter-footer_padding">
-      <div class="overfooter-footer__overfoooter overfooter_flex">
-        <h2 class="overfooter__stay-in-touch-name">Stay in Touch</h2>
-        <form class="overfooter__data">
+    <div class="intouch-footer intouch-footer_padding">
+      <div class="intouch-footer__intouch intouch-footer__intouch_padding">
+        <h2 class="intouch__name intouch__name_flex">Stay in Touch</h2>
+        <form class="intouch__data intouch__data_flex">
           <input class="data__email data__email_padding" type="text" name="email" placeholder="Enter your email address">
-          <input class="data__submit data__submit_padding data__submit_margin" type="submit">
+          <input class="data__submit data__submit_padding" type="submit">
         </form>
       </div>
-      <footer class="basement">
+      <footer class="basement basement_flex basement_padding">
         <span class="logo">Escape.</span>
         <nav class="basement__nav">
-          <a class="basement-nav__link" href="#">HOME</a>
-          <a class="basement-nav__link" href="#">CATEGORIES</a>
-          <a class="basement-nav__link" href="#">ABOUT</a>
-          <a class="basement-nav__link" href="#">CONTACT</a>
+          <a class="basement-nav__link basement-nav__link_margin" href="#">HOME</a>
+          <a class="basement-nav__link basement-nav__link_margin" href="#">CATEGORIES</a>
+          <a class="basement-nav__link basement-nav__link_margin" href="#">ABOUT</a>
+          <a class="basement-nav__link basement-nav__link_margin" href="#">CONTACT</a>
         </nav>
       </footer>
     </div>
