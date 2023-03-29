@@ -56,7 +56,7 @@ body
     margin-bottom: 20px;
 }
 
-.subheading__text
+.subheading__description
 {
     font: 17px/1.18 'Oxygen';
     color: rgba(255, 255, 255, 0.63);
@@ -91,10 +91,9 @@ body
     padding-top: 10px;
     padding-bottom: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
-    align-items: center;
-    align-content: space-evenly;
+    align-content: space-between;
 }
 
 .menu__link
@@ -178,14 +177,14 @@ body
     margin-bottom: 6px;
 }
 
-.post__text
+.post__description
 {
     font: 14px/1.79 'Oxygen';
     color: rgba(255, 255, 255, 0.7);
     margin: 0px 0px 17px 20px;
 }
 
-.post__data
+.post__info
 {
     display: flex;
     justify-content: space-between;
@@ -212,7 +211,7 @@ body
     top: -16px;
 }
 
-.data__date
+.info__date
 {
     font: 12px/2.92 'Oxygen';
     color: rgba(255, 255, 255, 0.7);
@@ -228,12 +227,17 @@ body
 
 .button__adventure
 {
+    border-radius: 3px;
+    color: #FFF;
+    background: #DD783F;
+    border: none;
     font: 12px/1.1 'Oxygen';
     padding: 6px 9px 7px;
     display: flex;
     align-self: flex-start;
     margin-left: 20px;
-    margin-bottom: 80px;
+    position: absolute;
+    margin-bottom: 240px;
 }
 
 .most-recent
@@ -276,7 +280,7 @@ body
     margin-left: 13px;
 }
 
-.photo__text
+.photo__description
 {
     font: 13px/1.46 'Oxygen';
     color: #7A7A7A;
@@ -287,19 +291,19 @@ body
     margin-bottom: 6px;
 }
 
-.author__text
+.recent-author__name
 {
     font: 11px/1 'Oxygen';
     color: #999999;
 }
 
-.author__text_position
+.recent-author__name_position
 {
     position: relative;
     top: -16px;
 }
 
-.date__text
+.photoinfo__date
 {
     font: 11px/1 'Oxygen';
     color: #999999;
@@ -318,7 +322,7 @@ body
     display: block;
 }
 
-.photo__data
+.photo__info
 {
     background: #FCFCFC;
     display: flex;
