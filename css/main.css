@@ -227,10 +227,6 @@ body
 
 .button__adventure
 {
-    border-radius: 3px;
-    color: #FFF;
-    background: #DD783F;
-    border: none;
     font: 12px/1.1 'Oxygen';
     padding: 6px 9px 7px;
     display: flex;
