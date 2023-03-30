@@ -88,8 +88,6 @@ body
     background: #FFF;
     margin-left: 17.3%;
     margin-right: 17.3%;
-    padding-top: 10px;
-    padding-bottom: 10px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -101,17 +99,21 @@ body
     font: 14/1.43 'Lora';
     color: #768088;
     text-decoration: none;
-    padding: 13px 35px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    margin-left: 35px;
+    margin-right: 35px;
 }
 
 .main
 {
     background: #F7F7F7;
+    padding-top: 60px;
+    padding-bottom: 108px;
 }
 
 .featured
 {
-    padding-top: 60px;
     margin-left: 16.5%;
     margin-right: 16.5%;
     margin-bottom: 67px;
@@ -191,17 +193,19 @@ body
     align-items: center;
     margin-left: 20px;
     margin-bottom: 15px;
+    margin-right: 20px;
 }
 
 .info__author
 {
     display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .author__avatar
 {
     border-radius: 60px;
-    margin-bottom: 8px;
     margin-right: 10px;
 }
 
@@ -211,17 +215,10 @@ body
     color: rgba(255, 255, 255, 0.7);
 }
 
-.author__name_position
-{
-    position: relative;
-    top: -16px;
-}
-
 .info__date
 {
     font: 12px/2.92 'Oxygen';
     color: rgba(255, 255, 255, 0.7);
-    margin-right: 20px;
 }
 
 .featured__post_background-fromtop
@@ -245,7 +242,6 @@ body
 {
     margin-left: 17.3%;
     margin-right: 17.3%;
-    padding-bottom: 108px;
 }
 
 .most-recent__posts
@@ -305,17 +301,10 @@ body
     color: #999999;
 }
 
-.recent-author__name_position
-{
-    position: relative;
-    top: -16px;
-}
-
 .photoinfo__date
 {
     font: 11px/1 'Oxygen';
     color: #999999;
-    margin-right: 13px;
 }
 
 .photo__line
@@ -338,7 +327,8 @@ body
     align-items: center;
     padding-left: 13px;
     padding-top: 12px;
-    margin-bottom: 5px;
+    padding-bottom: 10px;
+    padding-right: 13px;
 }
 
 .intouch-footer
@@ -383,7 +373,11 @@ body
     border: none;
     font: 12px/1.17 'Roboto';
     color: #817F83;
-    padding: 18px 14.4% 18px 35px;
+    padding-top: 18px;
+    padding-right: 35px;
+    padding-bottom: 18px;
+    padding-left: 35px;
+    width: 24%;
 }
 
 .application__submit
@@ -427,24 +421,6 @@ body
     letter-spacing: 1px;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-}
-
-.paragraphs__text
-{
-    font: 24px/1.46 'Oxygen';
-    color: #101315
-}
-
-.paragraphs__text:last-child
-{
-    margin-bottom: 0px;
-    padding-bottom: 135px;
-}
-
-.paragraphs__padding
-{
-    padding-left: 17.3%;
-    padding-right: 17.3%;
 }
 
 

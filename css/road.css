@@ -7,7 +7,7 @@ body
 {
     display: flex;
     justify-content: space-around;
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 .logo
@@ -38,7 +38,7 @@ body
     justify-content: center;
     flex-direction: column;
     margin-top: 109px;
-    padding-bottom: 113px;
+    margin-bottom: 113px;
 }
 
 .subheading__slogan
@@ -50,7 +50,7 @@ body
     margin-bottom: 20px;
 }
 
-.subheading__text
+.subheading__description
 {
     font: 17px/1.18 'Oxygen';
     color: rgba(46, 46, 46, 0.63);
@@ -61,13 +61,14 @@ body
 .main
 {
     background: #F7F7F7;
+    padding-bottom: 135px;
 }
 
 .main__image
 {
     border-radius: 3px;
-    margin-bottom: 140px;
     width: 100%;
+    margin-bottom: 0;
 }
 
 .paragraphs
@@ -77,6 +78,7 @@ body
     display: flex;
     flex-direction: column;
     gap: 24px;
+    margin-top: 140px;
 }
 
 .paragraphs__text
@@ -84,12 +86,6 @@ body
     font: 24px/1.46 'Oxygen';
     color: #101315;
     margin: 0px;
-}
-
-.paragraphs__text:last-child
-{
-    margin-bottom: 0px;
-    padding-bottom: 135px;
 }
 
 .intouch-footer
@@ -134,7 +130,11 @@ body
     border: none;
     font: 12px/1.17 'Roboto';
     color: #817F83;
-    padding: 18px 14.4% 18px 35px;
+    padding-top: 18px;
+    padding-right: 35px;
+    padding-bottom: 18px;
+    padding-left: 35px;
+    width: 24%;
 }
 
 .application__submit
