@@ -201,12 +201,12 @@ body
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 10px;
 }
 
 .author__avatar
 {
     border-radius: 60px;
-    margin-right: 10px;
 }
 
 .author__name
@@ -282,6 +282,7 @@ body
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 10px;
 }
 
 .photo__description
