@@ -88,6 +88,9 @@ body
     background: #FFF;
     margin-left: 17.3%;
     margin-right: 17.3%;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    gap: 35px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -99,10 +102,6 @@ body
     font: 14/1.43 'Lora';
     color: #768088;
     text-decoration: none;
-    margin-top: 22px;
-    margin-bottom: 22px;
-    margin-left: 35px;
-    margin-right: 35px;
 }
 
 .main
@@ -183,7 +182,9 @@ body
 {
     font: 14px/1.79 'Oxygen';
     color: rgba(255, 255, 255, 0.7);
-    margin: 0px 0px 17px 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
 }
 
 .post__info
@@ -191,6 +192,7 @@ body
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 17px;
     margin-left: 20px;
     margin-bottom: 15px;
     margin-right: 20px;
@@ -250,14 +252,13 @@ body
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-    gap: 24px;
+    gap: 25px;
 }
 
 .most-recent__photo
 {
     background: #FFFFFF;
     width: 296px;
-    margin-bottom: 25px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
